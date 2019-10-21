@@ -9,7 +9,6 @@ import org.apache.hadoop.hbase.util.Bytes;
 
 import com.lm.hbase.adapter.entity.QualifierValue;
 
-//
 public class Row {
 
     private LinkedHashMap<byte[], ColumnFamily> columnFamilys = new LinkedHashMap<byte[], ColumnFamily>();
